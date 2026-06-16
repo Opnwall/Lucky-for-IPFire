@@ -5,9 +5,8 @@
 ![Architecture](https://img.shields.io/badge/Architecture-x86__64-blue)
 ![Lucky](https://img.shields.io/badge/Lucky-v2.27.2-green)
 
-本项目将 **Lucky** 集成到 IPFire WebUI 中，为用户提供便捷的图形化管理界面。
-
 Lucky 是一款面向家庭网络和路由器场景的一体化管理工具，提供动态域名解析（DDNS）、ACME 证书管理、端口转发、Web 服务、计划任务等丰富功能。
+本项目将 **Lucky** 集成到 IPFire WebUI 中，为用户提供便捷的图形化管理界面。
 
 ![Lucky WebUI](image/lucky.png)
 
