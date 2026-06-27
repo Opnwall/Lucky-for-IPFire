@@ -37,7 +37,9 @@ if [ ! -d src ]; then
 fi
 
 log "$YELLOW" "Copying project files..."
-cp -R -f src/. /
+for dir in etc opt srv var; do
+	cp -R -f "src/$dir/." "/$dir/"
+done
 
 log "$YELLOW" "Setting permissions..."
 chown root:root /etc/rc.d/init.d/lucky /etc/sysconfig/lucky /srv/web/ipfire/cgi-bin/lucky.cgi 2>/dev/null || true
