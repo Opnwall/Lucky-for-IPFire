@@ -71,14 +71,5 @@ sh uninstall.sh
 
 ## 免责
 
-这是一个非官方社区项目，与 IPFire 团队没有任何关联，也未获得其认可或支持。
-部署前请自行审查源代码，并自行承担使用过程中可能产生的风险。
+这是一个非官方社区项目，与 IPFire 团队没有任何关联，自行承担使用过程中可能产生的风险。
 
-## 致谢
-
-- Lucky 项目：https://github.com/gdy666/lucky
-- IPFire 项目：https://www.ipfire.org/
-
-## 许可证
-
-请参阅上游 Lucky 项目及本仓库中的许可证文件。
